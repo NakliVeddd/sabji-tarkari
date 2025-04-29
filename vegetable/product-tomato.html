@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Tomatoes - FreshVeggies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+        
+                <a href="index.html">
+                    <img src="logo.png" alt="sabji tarkari logo" height = 40>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <div class="container">
+                <div class="product-detail-grid">
+                    <div class="product-detail-image">
+                        <img src="https://placehold.co/600x600" alt="Organic Tomatoes">
+                    </div>
+                    <div class="product-detail-info">
+                        <h1>Organic Tomatoes</h1>
+                        <p class="price">$3.99 / lb</p>
+                        
+                        <div class="product-description">
+                            <p>Juicy, ripe tomatoes grown locally without pesticides. Perfect for salads, sandwiches, or making homemade sauce.</p>
+                        </div>
+
+                        <div class="product-quantity">
+                            <h3>Quantity</h3>
+                            <form action="cart.html" method="get">
+                                <div class="quantity-selector">
+                                    <button type="button" class="quantity-btn minus">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                                    <button type="button" class="quantity-btn plus">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <button type="submit" class="btn btn-add-cart">
+                                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="product-details">
+                            <h3>Details</h3>
+                            <ul>
+                                <li><span>Category:</span> Fruit Vegetables</li>
+                                <li><span>Origin:</span> Local Farm</li>
+                                <li><span>Organic:</span> Yes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-products">
+            <div class="container">
+                <h2>You Might Also Like</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="product-cucumber.html">
+                                <img src="https://placehold.co/400x400" alt="Cucumber">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product-cucumber.html">Cucumber</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">$1.49 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="https://placehold.co/400x400" alt="Bell Peppers">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Bell Peppers</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">$1.99 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="https://placehold.co/400x400" alt="Zucchini">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Zucchini</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">$1.79 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FreshVeggies. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

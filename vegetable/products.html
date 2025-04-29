@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Vegetables - FreshVeggies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="sabji tarkari logo" height = 40>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="products-section">
+            <div class="container">
+                <h1>All Vegetables</h1>
+
+                <div class="filters">
+                    <div class="search-box">
+                        <form action="#" method="get">
+                            <input type="text" placeholder="Search vegetables..." name="search">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="filter-options">
+                        <select name="category">
+                            <option value="all">All Categories</option>
+                            <option value="leafy">Leafy Greens</option>
+                            <option value="root">Root Vegetables</option>
+                            <option value="fruit">Fruit Vegetables</option>
+                        </select>
+                        <select name="sort">
+                            <option value="featured">Featured</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="name">Name</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="product-tomato.html">
+                                <img src="tomato.avif" alt="Organic Tomatoes">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product-tomato.html">Organic Tomatoes</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">₹45 / kg</p> 
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="product-cucumber.html">
+                                <img src="cucumber.avif" alt="Cucumber">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product-cucumber.html">Cucumber</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">₹15 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="product-spinach.html">
+                                <img src="spinach.avif" alt="Baby Spinach">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product-spinach.html">Baby Spinach</a></h3>
+                            <p class="category">Leafy Greens</p>
+                            <p class="price">₹50 / bunch</p>    
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="product-carrot.html">
+                                <img src="carrots.png" alt="Organic Carrots">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="product-carrot.html">Organic Carrots</a></h3>
+                            <p class="category">Root Vegetables</p>
+                            <p class="price">₹25 / kg</p> 
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="br.avif" alt="Broccoli Crown">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Broccoli Crown</a></h3>
+                            <p class="category">Cruciferous</p>
+                            <p class="price">₹30 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="bell-peppers-1200x800-1-1024x683.jpg" alt="Bell Peppers">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Bell Peppers</a></h3>
+                            <p class="category">Fruit Vegetables</p>
+                            <p class="price">₹20 / each</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="KaleCurly_6b5d32f7-c886-4b6e-a8db-ec976b3941fc.jpg" alt="Organic Kale">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Organic Kale</a></h3>
+                            <p class="category">Leafy Greens</p>
+                            <p class="price">₹40 / bunch</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="40225175_1-fresho-onion-yellow.webp" alt="Yellow Onions">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3><a href="#">Yellow Onions</a></h3>
+                            <p class="category">Root Vegetables</p>
+                            <p class="price">₹10 / kg</p>
+                            <a href="cart.html" class="btn btn-add-cart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FreshVeggies. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

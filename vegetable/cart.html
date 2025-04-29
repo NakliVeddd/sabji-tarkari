@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - FreshVeggies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+        
+                <a href="index.html">
+                    <img src="logo.png" alt="sabji tarkari logo" height = 40>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="cart.html" class="active">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-section">
+            <div class="container">
+                <h1>Your Cart</h1>
+
+                <div class="cart-grid">
+                    <div class="cart-items">
+                        <div class="cart-item">
+                            <div class="cart-item-image">
+                                <img src="tomato.avif" alt="Organic Tomatoes">
+                            </div>
+                            <div class="cart-item-details">
+                                <div class="cart-item-info">
+                                    <h3>Organic Tomatoes</h3>
+                                    <p class="price">₹30 /kg</p>
+                                </div>
+                                <div class="cart-item-quantity">
+                                    <div class="quantity-selector">
+                                        <button type="button" class="quantity-btn minus">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="number" name="quantity" value="2" min="1" class="quantity-input">
+                                        <button type="button" class="quantity-btn plus">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cart-item-subtotal">
+                                    <p>₹</p>
+                                </div>
+                                <div class="cart-item-remove">
+                                    <button class="btn-remove">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="cart-item-image">
+                                <img src="cucumber.avif" alt="Cucumber">
+                            </div>
+                            <div class="cart-item-details">
+                                <div class="cart-item-info">
+                                    <h3>Cucumber</h3>
+                                    <p class="price">₹15 / each</p>
+                                </div>
+                                <div class="cart-item-quantity">
+                                    <div class="quantity-selector">
+                                        <button type="button" class="quantity-btn minus">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                                        <button type="button" class="quantity-btn plus">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cart-item-subtotal">
+                                    <p>₹65</p>
+                                </div>
+                                <div class="cart-item-remove">
+                                    <button class="btn-remove">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-item">
+                            <div class="cart-item-image">
+                                <img src="spinach.avif" alt="Baby Spinach">
+                            </div>
+                            <div class="cart-item-details">
+                                <div class="cart-item-info">
+                                    <h3>Baby Spinach</h3>
+                                    <p class="price">₹20/ bunch</p>
+                                </div>
+                                <div class="cart-item-quantity">
+                                    <div class="quantity-selector">
+                                        <button type="button" class="quantity-btn minus">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                                        <button type="button" class="quantity-btn plus">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cart-item-subtotal">
+                                    <p>₹5</p>
+                                </div>
+                                <div class="cart-item-remove">
+                                    <button class="btn-remove">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-summary">
+                        <h2>Order Summary</h2>
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span>₹65</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Shipping</span>
+                            <span>₹5</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax</span>
+                            <span>₹1.01</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span>₹75.01</span>
+                        </div>
+                        <button class="btn btn-checkout">
+                            Proceed to Checkout <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <p class="shipping-note">Free shipping on orders over $50</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FreshVeggies. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
